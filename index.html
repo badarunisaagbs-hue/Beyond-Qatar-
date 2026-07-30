@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Badarunisa Ibrahim – Beyond Qatar | Official Personal Brand Website</title>
+  <meta name="description" content="Official personal brand website of Badarunisa Ibrahim, founder of Beyond Qatar. Professional career advice, business insights, workplace culture guidance, and expat strategies in Qatar.">
+  <meta name="keywords" content="Badarunisa Ibrahim, Beyond Qatar, Qatar career advice, Life in Qatar, Career in Qatar, Working in Qatar, Qatar business guide">
+  <meta name="author" content="Badarunisa Ibrahim">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Badarunisa Ibrahim – Beyond Qatar">
+  <meta property="og:description" content="Navigate Life & Career in Qatar with Badarunisa Ibrahim. Real experiences, career strategies, and business opportunities.">
+  <meta property="og:image" content="./assets/beyond_qatar_logo.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpg" href="./assets/beyond_qatar_logo.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Great+Vibes&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <!-- Reading Progress Bar -->
+  <div id="reading-progress-bar" class="reading-progress-bar"></div>
+
+  <!-- Editorial Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container" style="display: flex; align-items: center; justify-content: center; gap: 14px;">
+      <span style="font-weight: 700; letter-spacing: 2px; font-size: 0.75rem; text-transform: uppercase;">2026 EDITION</span>
+      <span>Download the <strong>Qatar Expat & Career Executive Playbook</strong> by Badarunisa Ibrahim</span>
+      <button class="btn btn-outline-light btn-sm" onclick="app.openResourceModal('qatar-career-guide')" style="padding: 4px 16px; font-size: 0.75rem;">
+        Download Copy <i data-lucide="arrow-right"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Navigation Header (With Official Logo) -->
+  <header id="main-header" class="site-header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Beyond Qatar Homepage">
+        <img src="./assets/beyond_qatar_logo.jpg" alt="Beyond Qatar Logo by Badarunisa Ibrahim" class="logo-img">
+        <div>
+          <span class="brand-title">BEYOND QATAR</span>
+          <span class="brand-signature">by Badarunisa Ibrahim</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About Badarunisa</a>
+        <a href="#story" class="nav-link">Beyond Qatar Story</a>
+        <a href="#process" class="nav-link">My Methodology</a>
+        <a href="#media" class="nav-link">Media & Work</a>
+        <a href="#articles" class="nav-link">Content Hub</a>
+        <a href="#resources" class="nav-link">Resource Guides</a>
+      </nav>
+
+      <!-- Action Utilities -->
+      <div class="header-actions">
+        <button class="icon-btn" title="Search (Ctrl+K)" onclick="app.openSearchModal()">
+          <i data-lucide="search"></i>
+        </button>
+        <a href="#contact" class="btn btn-burgundy btn-sm">
+          <span>Work With Me</span>
+          <i data-lucide="arrow-up-right"></i>
+        </a>
+        <button class="mobile-menu-toggle" onclick="app.toggleMobileMenu()" aria-label="Toggle Navigation Menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer">
+      <a href="#about" class="mobile-nav-link" onclick="app.closeMobileMenu()">About Badarunisa</a>
+      <a href="#story" class="mobile-nav-link" onclick="app.closeMobileMenu()">Beyond Qatar Story</a>
+      <a href="#process" class="mobile-nav-link" onclick="app.closeMobileMenu()">My Methodology</a>
+      <a href="#media" class="mobile-nav-link" onclick="app.closeMobileMenu()">Media & Selected Work</a>
+      <a href="#articles" class="mobile-nav-link" onclick="app.closeMobileMenu()">Articles & Insights</a>
+      <a href="#resources" class="mobile-nav-link" onclick="app.closeMobileMenu()">Resource Guides</a>
+      <div style="margin-top: 20px;">
+        <a href="#contact" class="btn btn-burgundy w-full" onclick="app.closeMobileMenu()">Work With Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- EDITORIAL HERO SECTION (WITH BADARUNISA'S OFFICIAL PORTRAIT) -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="hero-editorial-sub">FOUNDER & BUSINESS CONSULTANT</span>
+          
+          <h1 class="editorial-hero-title">
+            beyond qatar
+          </h1>
+
+          <p class="hero-lead-text" style="margin-top: 24px;">
+            I am <strong>Badarunisa Ibrahim</strong>, founder of <em>Beyond Qatar</em>. Through my professional journey and experiences in Qatar, I share practical insights to help professionals, expatriates, and entrepreneurs adapt, grow, and succeed.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#about" class="btn btn-burgundy btn-lg">
+              <span>Explore My Journey</span>
+              <i data-lucide="arrow-right"></i>
+            </a>
+            <a href="#articles" class="btn btn-outline-dark btn-lg">
+              <span>Read Articles</span>
+              <i data-lucide="book-open"></i>
+            </a>
+          </div>
+
+          <div style="display: flex; gap: 36px; border-top: 1px solid var(--border-light); padding-top: 20px;">
+            <div>
+              <span style="font-family: var(--font-display); font-size: 2.2rem; display: block; line-height: 1; color: var(--burgundy-primary);">4+</span>
+              <span style="font-size: 0.78rem; color: var(--taupe-muted); text-transform: uppercase; letter-spacing: 1px;">Core Executive Roles</span>
+            </div>
+            <div>
+              <span style="font-family: var(--font-display); font-size: 2.2rem; display: block; line-height: 1; color: var(--burgundy-primary);">1,000+</span>
+              <span style="font-size: 0.78rem; color: var(--taupe-muted); text-transform: uppercase; letter-spacing: 1px;">Professionals Advised</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Official Portrait Photo Frame -->
+        <div class="hero-collage-frame">
+          <img src="./assets/badarunisa_portrait.jpg" alt="Badarunisa Ibrahim – Founder of Beyond Qatar" class="hero-main-photo">
+          
+          <div class="hero-overlay-card">
+            <strong>Badarunisa Ibrahim</strong>
+            <span style="font-size: 0.75rem; font-weight: 700; color: var(--burgundy-primary); letter-spacing: 1px; text-transform: uppercase; display: block; margin: 4px 0;">ADDRESS GATEWAY BUSINESS SERVICES</span>
+            <p>Data Manager & Business Consultant</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DARK COCOA "OUR WORK & MEDIA" SECTION -->
+    <section id="media" class="section espresso-section">
+      <div class="container">
+        <div class="section-header between">
+          <div>
+            <span class="section-tagline" style="color: var(--gold-metallic);">SELECTED MEDIA & PODCAST</span>
+            <h2 class="section-title">our work</h2>
+            <p class="section-subtitle">Real discussions, executive podcasts, and guides empowering professionals across Qatar.</p>
+          </div>
+          <button class="btn btn-outline-light" onclick="app.playPodcast()">
+            <span>Listen to Episode 12</span>
+            <i data-lucide="play-circle"></i>
+          </button>
+        </div>
+
+        <div class="media-grid">
+          <div class="media-editorial-card">
+            <div>
+              <span style="font-size: 0.75rem; font-weight: 700; color: var(--gold-metallic); letter-spacing: 2px; text-transform: uppercase;">EPISODE 12</span>
+              <h3 style="font-size: 1.5rem; margin: 12px 0; color: var(--text-light);">Navigating Career Stagnation & Salary Negotiations in Qatar</h3>
+              <p style="font-size: 0.88rem; color: var(--sand-muted); margin-bottom: 24px;">
+                How expat professionals negotiate compensation, earn promotions, and build authority in Qatar's corporate market.
+              </p>
+            </div>
+            <button class="btn btn-outline-light btn-sm" onclick="app.playPodcast()">
+              Listen Podcast <i data-lucide="play"></i>
+            </button>
+          </div>
+
+          <div class="media-editorial-card">
+            <div>
+              <span style="font-size: 0.75rem; font-weight: 700; color: var(--gold-metallic); letter-spacing: 2px; text-transform: uppercase;">EXECUTIVE GUIDE</span>
+              <h3 style="font-size: 1.5rem; margin: 12px 0; color: var(--text-light);">Qatar Expat Career Success Blueprint (2026)</h3>
+              <p style="font-size: 0.88rem; color: var(--sand-muted); margin-bottom: 24px;">
+                Comprehensive guide covering job channels, compensation expectations, and interview etiquette in Doha.
+              </p>
+            </div>
+            <button class="btn btn-outline-light btn-sm" onclick="app.openResourceModal('qatar-career-guide')">
+              Download Guide <i data-lucide="download"></i>
+            </button>
+          </div>
+
+          <div class="media-editorial-card">
+            <div>
+              <span style="font-size: 0.75rem; font-weight: 700; color: var(--gold-metallic); letter-spacing: 2px; text-transform: uppercase;">BUSINESS ADVISORY</span>
+              <h3 style="font-size: 1.5rem; margin: 12px 0; color: var(--text-light);">Demystifying Company Formation in Qatar</h3>
+              <p style="font-size: 0.88rem; color: var(--sand-muted); margin-bottom: 24px;">
+                Strategic advice for entrepreneurs, investors, and foreign commercial founders entering Qatar.
+              </p>
+            </div>
+            <a href="#contact" class="btn btn-outline-light btn-sm">
+              Book Advisory <i data-lucide="calendar"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUMBERED PROCESS & JOURNEY METHODOLOGY -->
+    <section id="process" class="section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-tagline">MY STRATEGIC METHODOLOGY</span>
+          <h2 class="section-title">My Journey & Process</h2>
+          <p class="section-subtitle">A structured methodology developed through years of hands-on experience in Qatar.</p>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-card">
+            <span class="process-number">01</span>
+            <h3>Discover</h3>
+            <p>Understanding Qatar's unique labor laws, corporate culture, and foreign business frameworks.</p>
+          </div>
+
+          <div class="process-card">
+            <span class="process-number">02</span>
+            <h3>Execute</h3>
+            <p>Hands-on mastery across Data Management, High-Stakes Sales, Client Services, and Consulting.</p>
+          </div>
+
+          <div class="process-card">
+            <span class="process-number">03</span>
+            <h3>Advise</h3>
+            <p>Working hand-in-hand with entrepreneurs, business owners, investors, and expat professionals.</p>
+          </div>
+
+          <div class="process-card">
+            <span class="process-number">04</span>
+            <h3>Beyond</h3>
+            <p>Building 'Beyond Qatar' to share real, actionable knowledge that empowers others to succeed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT BADARUNISA IBRAHIM -->
+    <section id="about" class="section" style="background: var(--sand-cream);">
+      <div class="container">
+        <div class="about-grid">
+          <div>
+            <span class="section-tagline">FOUNDER PROFILE</span>
+            <h2 class="section-title">My Story & Corporate Essence</h2>
+            <p style="color: var(--taupe-muted); font-size: 1.05rem; margin-bottom: 24px;">
+              My name is <strong>Badarunisa Ibrahim</strong>. I currently work at <strong>Address Gateway Business Services, Qatar</strong>. Throughout my career, I have held multi-faceted operational and strategic leadership roles:
+            </p>
+
+            <div class="roles-grid">
+              <div class="role-pill">
+                <i data-lucide="database"></i>
+                <div>
+                  <strong>Data Manager</strong>
+                  <span>Analytical precision & data integrity</span>
+                </div>
+              </div>
+              <div class="role-pill">
+                <i data-lucide="trending-up"></i>
+                <div>
+                  <strong>Sales Executive</strong>
+                  <span>Client relationship & revenue growth</span>
+                </div>
+              </div>
+              <div class="role-pill">
+                <i data-lucide="briefcase"></i>
+                <div>
+                  <strong>Business Consultant</strong>
+                  <span>Commercial advisory & setup strategy</span>
+                </div>
+              </div>
+              <div class="role-pill">
+                <i data-lucide="headphones"></i>
+                <div>
+                  <strong>Customer Service Executive</strong>
+                  <span>Client satisfaction & communication</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <span class="section-tagline">STRATEGIC PERSPECTIVE</span>
+            <h2 class="section-title">Bridging Experience into Empowerment</h2>
+            <p style="color: var(--taupe-muted); font-size: 1.05rem; margin-bottom: 24px;">
+              Working closely with entrepreneurs, business owners, investors, ambitious professionals, and international clients has given me firsthand insight into what drives success in Qatar:
+            </p>
+
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+              <div class="editorial-card" style="padding: 24px;">
+                <h3 style="font-size: 1.2rem; margin-bottom: 6px;">Qatar's Business Environment</h3>
+                <p style="font-size: 0.88rem; color: var(--taupe-muted);">In-depth understanding of corporate licensing, government relations, and business etiquette.</p>
+              </div>
+
+              <div class="editorial-card" style="padding: 24px;">
+                <h3 style="font-size: 1.2rem; margin-bottom: 6px;">Expat Career Navigation</h3>
+                <p style="font-size: 0.88rem; color: var(--taupe-muted);">Practical strategies to overcome career stagnation, master job interviews, and stand out.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEYOND QATAR STORY SECTION -->
+    <section id="story" class="section">
+      <div class="container">
+        <div style="text-align: center; max-width: 800px; margin: 0 auto 60px auto;">
+          <span class="section-tagline">THE PLATFORM & VISION</span>
+          <h2 class="section-title">Why Beyond Qatar?</h2>
+          <p class="section-subtitle">
+            Many people see only the surface layer of Qatar — its skylines and mega-projects. <strong>Beyond Qatar</strong> explores what lies beneath: real strategies for personal growth, career longevity, and business fulfillment.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <div class="editorial-card" style="padding: 30px;">
+            <span style="font-family: var(--font-display); font-size: 2.2rem; color: var(--burgundy-primary); font-weight: 600;">01</span>
+            <h3 style="font-size: 1.3rem; margin: 10px 0 6px 0;">Career Growth</h3>
+            <p style="font-size: 0.88rem; color: var(--taupe-muted);">Moving from entry-level roles to executive responsibility with targeted skills.</p>
+          </div>
+
+          <div class="editorial-card" style="padding: 30px;">
+            <span style="font-family: var(--font-display); font-size: 2.2rem; color: var(--burgundy-primary); font-weight: 600;">02</span>
+            <h3 style="font-size: 1.3rem; margin: 10px 0 6px 0;">Business Possibilities</h3>
+            <p style="font-size: 0.88rem; color: var(--taupe-muted);">De-mystifying company formation and client acquisition in Doha.</p>
+          </div>
+
+          <div class="editorial-card" style="padding: 30px;">
+            <span style="font-family: var(--font-display); font-size: 2.2rem; color: var(--burgundy-primary); font-weight: 600;">03</span>
+            <h3 style="font-size: 1.3rem; margin: 10px 0 6px 0;">Cultural Etiquette</h3>
+            <p style="font-size: 0.88rem; color: var(--taupe-muted);">Mastering workplace etiquette and cross-cultural networking.</p>
+          </div>
+
+          <div class="editorial-card" style="padding: 30px;">
+            <span style="font-family: var(--font-display); font-size: 2.2rem; color: var(--burgundy-primary); font-weight: 600;">04</span>
+            <h3 style="font-size: 1.3rem; margin: 10px 0 6px 0;">Personal Growth</h3>
+            <p style="font-size: 0.88rem; color: var(--taupe-muted);">Thriving as an expatriate — managing finances and building a rewarding life abroad.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARTICLES & INSIGHTS -->
+    <section id="articles" class="section" style="background: var(--sand-cream);">
+      <div class="container">
+        <div class="section-header between">
+          <div>
+            <span class="section-tagline">INSIGHTS & ARTICLES</span>
+            <h2 class="section-title">Beyond Qatar Content Hub</h2>
+            <p class="section-subtitle">Practical articles written by Badarunisa Ibrahim for professionals and expats.</p>
+          </div>
+          
+          <div style="min-width: 280px;">
+            <input type="text" id="blog-search-input" placeholder="Search topics (e.g. CV, Business)..." oninput="app.filterArticles()" class="input-pill">
+          </div>
+        </div>
+
+        <div class="articles-grid" id="articles-grid">
+          <!-- Articles rendered dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- PASSPORT RESOURCE GUIDES -->
+    <section id="resources" class="section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-tagline">KNOWLEDGE REPOSITORY</span>
+          <h2 class="section-title">Downloadable Guides & Checklists</h2>
+          <p class="section-subtitle">Curated blueprints, templates, and guides created by Badarunisa Ibrahim.</p>
+        </div>
+
+        <div class="resources-grid" id="resources-grid">
+          <!-- Passport resources rendered dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- EDITORIAL SPLIT CONTACT SECTION -->
+    <section id="contact" class="section" style="background: var(--sand-cream);">
+      <div class="container contact-split-grid">
+        <div>
+          <span class="section-tagline">WORK WITH BADARUNISA</span>
+          <h2 class="contact-hero-title">get in touch</h2>
+          <p style="color: var(--taupe-muted); font-size: 1.1rem; margin-bottom: 30px;">
+            Whether you need career consultation, CV & LinkedIn optimization, business setup guidance in Qatar, or personal mentoring — Badarunisa Ibrahim is here to assist.
+          </p>
+
+          <div style="display: flex; flex-direction: column; gap: 14px;">
+            <p><strong>Office:</strong> Address Gateway Business Services, Doha, Qatar</p>
+            <p><strong>Email:</strong> badarunisa@beyondqatar.com</p>
+            <p><strong>Platform:</strong> www.beyondqatar.com</p>
+          </div>
+        </div>
+
+        <div class="contact-form-box">
+          <h3 style="font-size: 1.8rem; margin-bottom: 20px; color: var(--burgundy-primary);">Let's chat!</h3>
+          <form onsubmit="app.handleInquirySubmit(event)">
+            <div class="form-group">
+              <label>Your Full Name</label>
+              <input type="text" id="inquiry-name" required placeholder="e.g. Ahmed Al-Mansoori" class="input-pill">
+            </div>
+
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" id="inquiry-email" required placeholder="e.g. ahmed@example.com" class="input-pill">
+            </div>
+
+            <div class="form-group">
+              <label>Service Requested</label>
+              <select id="inquiry-service" class="input-pill">
+                <option value="career-consultation">Career Consultation (Expat & Corporate)</option>
+                <option value="cv-linkedin">CV & LinkedIn Personal Branding</option>
+                <option value="business-guidance">Business Guidance & Qatar Market Advisory</option>
+                <option value="personal-mentoring">Personal Mentoring Program</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Tell Badarunisa about your goals</label>
+              <textarea id="inquiry-message" rows="4" required placeholder="Share your background or objectives..." class="input-pill"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-burgundy btn-lg w-full">
+              <span>Send Message</span>
+              <i data-lucide="send"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#hero" class="brand-logo" style="margin-bottom: 16px;">
+          <img src="./assets/beyond_qatar_logo.jpg" alt="Beyond Qatar Logo" class="logo-img">
+          <div>
+            <span class="brand-title" style="color: var(--gold-metallic);">BEYOND QATAR</span>
+            <span class="brand-signature" style="color: var(--text-light);">by Badarunisa Ibrahim</span>
+          </div>
+        </a>
+        <p style="font-size: 0.88rem; color: var(--sand-muted);">
+          Personal brand platform founded by Badarunisa Ibrahim to empower professionals, expats, and entrepreneurs across Qatar.
+        </p>
+      </div>
+
+      <div>
+        <h4 style="color: var(--gold-metallic); margin-bottom: 16px;">Navigation</h4>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 0.88rem; color: var(--sand-muted);">
+          <li><a href="#about">About Badarunisa</a></li>
+          <li><a href="#story">Beyond Qatar Story</a></li>
+          <li><a href="#process">My Methodology</a></li>
+          <li><a href="#media">Media & Work</a></li>
+          <li><a href="#articles">Articles & Insights</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 style="color: var(--gold-metallic); margin-bottom: 16px;">Guides & Checklists</h4>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 0.88rem; color: var(--sand-muted);">
+          <li><a href="#resources" onclick="app.openResourceModal('qatar-career-guide')">Qatar Career Guide</a></li>
+          <li><a href="#resources" onclick="app.openResourceModal('newcomer-guide')">Newcomer's Playbook</a></li>
+          <li><a href="#resources" onclick="app.openResourceModal('cv-template')">Executive CV Template</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 style="color: var(--gold-metallic); margin-bottom: 16px;">Contact Office</h4>
+        <p style="font-size: 0.88rem; color: var(--sand-muted);">Address Gateway Business Services</p>
+        <p style="font-size: 0.88rem; color: var(--sand-muted);">Doha, State of Qatar</p>
+        <p style="font-size: 0.88rem; color: var(--gold-metallic); margin-top: 8px;">badarunisa@beyondqatar.com</p>
+      </div>
+    </div>
+
+    <div class="container" style="text-align: center; font-size: 0.8rem; color: var(--sand-muted); border-top: 1px solid rgba(248, 245, 238, 0.15); padding-top: 24px;">
+      &copy; 2026 Badarunisa Ibrahim &bull; Beyond Qatar. All Rights Reserved.
+    </div>
+  </footer>
+
+  <!-- MODALS -->
+  <!-- Podcast & Video Player Modal -->
+  <div class="modal-backdrop" id="media-player-modal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3><i data-lucide="play-circle"></i> Episode 12 &bull; Beyond Qatar Podcast</h3>
+        <button class="modal-close" onclick="app.closeMediaPlayer()"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body" style="text-align: center; padding: 30px;">
+        <h3 id="player-title" style="font-size: 1.5rem; margin-bottom: 12px;">Navigating Career Stagnation & Salary Negotiations in Qatar</h3>
+        <p style="color: var(--taupe-muted); font-size: 0.9rem; margin-bottom: 24px;">Hosted by Badarunisa Ibrahim</p>
+        
+        <audio controls autoplay id="audio-element" style="width: 100%; margin-bottom: 24px;">
+          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        </audio>
+
+        <a href="#contact" class="btn btn-burgundy btn-lg w-full" onclick="app.closeMediaPlayer()">
+          Book Advisory Session <i data-lucide="calendar"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Modal -->
+  <div class="modal-backdrop" id="search-modal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3><i data-lucide="search"></i> Search Beyond Qatar</h3>
+        <button class="modal-close" onclick="app.closeSearchModal()"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body" style="padding: 30px;">
+        <input type="text" id="modal-search-input" placeholder="Type keywords like 'Interview', 'CV', 'Business'..." oninput="app.performModalSearch()" autofocus class="input-pill">
+        <div id="modal-search-results" style="margin-top: 20px;">
+          <p style="color: var(--taupe-muted); font-size: 0.9rem; text-align: center;">Start typing to search...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Article Modal -->
+  <div class="modal-backdrop" id="article-modal">
+    <div class="modal-container" style="max-width: 820px;">
+      <div class="modal-header">
+        <span style="font-size: 0.75rem; font-weight: 700; color: var(--burgundy-primary);" id="article-modal-category">Category</span>
+        <button class="modal-close" onclick="app.closeArticleModal()"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body" id="article-modal-body" style="padding: 30px;"></div>
+    </div>
+  </div>
+
+  <!-- Resource Download Modal -->
+  <div class="modal-backdrop" id="resource-modal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3><i data-lucide="download"></i> Download Resource</h3>
+        <button class="modal-close" onclick="app.closeResourceModal()"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body" id="resource-modal-body" style="padding: 30px;"></div>
+    </div>
+  </div>
+
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
