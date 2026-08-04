@@ -1,22 +1,16 @@
-/**
- * BADARUNISA IBRAHIM – BEYOND QATAR
- * Mood Board Editorial Data Repository
+﻿/**
+ * BADARUNISA IBRAHIM â€“ NIORA
+ * Luxury Redesign â€” Data Repository
  */
 
 const SITE_DATA = {
   founder: {
     name: "Badarunisa Ibrahim",
-    title: "Founder of Beyond Qatar | Executive Advisor",
+    title: "Founder of NIORA | Executive Advisor",
     company: "Address Gateway Business Services",
     location: "Doha, State of Qatar",
     tagline: "Navigate Life and Career in Qatar",
-    bio: "Badarunisa Ibrahim is a Business Consultant, Data Manager, Sales Leader, and Customer Service Executive in Qatar. Through Beyond Qatar, she shares practical knowledge, career strategies, and business development insights.",
-    roles: [
-      { title: "Data Manager", desc: "Analytical precision & data integrity across enterprise operations." },
-      { title: "Sales Executive", desc: "High-stakes commercial growth & relationship building." },
-      { title: "Business Consultant", desc: "Advising foreign investors & corporate founders in Doha." },
-      { title: "Customer Service Executive", desc: "Mastering cross-cultural client satisfaction & communication." }
-    ]
+    bio: "Badarunisa Ibrahim is a Business Consultant, Data Manager, Sales Leader, and Customer Service Executive in Qatar. Through NIORA, she shares practical knowledge, career strategies, and business development insights."
   },
 
   articles: [
@@ -26,14 +20,18 @@ const SITE_DATA = {
       categoryLabel: "Career Growth",
       readTime: "5 min read",
       date: "July 2026",
+      icon: "briefcase",
+      color: "#8B7564",
       title: "Mastering the Gulf Job Market: How to Position Your CV for Qatar's Top Employers",
       snippet: "Discover why generic resumes fail in Qatar and how to tailor your CV to highlight measurable achievements, ATS keyword alignment, and regional credibility.",
       content: `
         <p>Landing a rewarding role in Qatar requires far more than submitting standard job applications. The Gulf recruitment landscape operates on a mix of automated Applicant Tracking Systems (ATS) and tight-knit professional referrals.</p>
         <h3>1. Standardize for the Gulf Executive Format</h3>
         <p>Unlike Western resumes that lean strictly towards one-page summaries, Qatar employers appreciate clear, structured 2-to-3 page executive profiles detailing specific project scopes, team sizes managed, and financial/operational metrics.</p>
-        <h3>2. Highlight Local Regulatory & Operational Familiarity</h3>
+        <h3>2. Highlight Local Regulatory &amp; Operational Familiarity</h3>
         <p>If you have experience working with Qatar ministries, corporate licensing, or regional compliance, feature these prominently in your core competencies section.</p>
+        <h3>3. Quantify Your Achievements</h3>
+        <p>Numbers resonate with Qatari hiring managers. Replace vague descriptions with measurable outcomes: "Increased client retention by 32%" beats "Improved customer satisfaction" every time.</p>
       `
     },
     {
@@ -42,10 +40,16 @@ const SITE_DATA = {
       categoryLabel: "Life in Qatar",
       readTime: "7 min read",
       date: "June 2026",
-      title: "The Expat Reality Check: Navigating Cultural Etiquette, Living Costs & Daily Success in Doha",
+      icon: "home",
+      color: "#C8A26A",
+      title: "The Expat Reality Check: Navigating Cultural Etiquette, Living Costs &amp; Daily Success in Doha",
       snippet: "Real experiences on managing living expenses, understanding workplace etiquette, and settling into Qatar's welcoming yet structured culture.",
       content: `
         <p>Qatar offers an exceptional quality of life, world-class infrastructure, and a safe, family-friendly environment. However, thriving here requires a grounded understanding of lifestyle balance and cultural respect.</p>
+        <h3>Understanding Cultural Norms</h3>
+        <p>Qatar is an Islamic country with deeply held values of respect, hospitality, and modesty. Learning to navigate these customs â€” from dress codes to greeting etiquette â€” will open doors that formal credentials alone cannot.</p>
+        <h3>Managing Living Costs</h3>
+        <p>While Qatar offers tax-free salaries, the cost of living in Doha can be surprising for newcomers. Strategic planning around housing, transport, and lifestyle choices makes the difference between comfortable living and financial strain.</p>
       `
     },
     {
@@ -54,10 +58,16 @@ const SITE_DATA = {
       categoryLabel: "Business Insights",
       readTime: "6 min read",
       date: "May 2026",
-      title: "Demystifying Company Setup in Qatar: Strategic Advice for Entrepreneurs & Investors",
+      icon: "building-2",
+      color: "#A9834B",
+      title: "Demystifying Company Setup in Qatar: Strategic Advice for Entrepreneurs &amp; Investors",
       snippet: "An insider's guide from Address Gateway Business Services on corporate structures, licensing steps, and market entry for new businesses.",
       content: `
         <p>Qatar's economy is rapidly expanding under Vision 2030, presenting immense opportunities for foreign investors and local entrepreneurs alike.</p>
+        <h3>Choosing the Right Business Structure</h3>
+        <p>Qatar offers several company structures â€” from sole proprietorships to LLCs and branch offices. Each has distinct implications for ownership, liability, and taxation. Understanding which vehicle suits your business model is critical.</p>
+        <h3>Navigating the Licensing Process</h3>
+        <p>Commercial licensing in Qatar involves multiple government entities. Working with an experienced business services partner, like Address Gateway Business Services, significantly streamlines the process.</p>
       `
     },
     {
@@ -66,10 +76,16 @@ const SITE_DATA = {
       categoryLabel: "Professional Skills",
       readTime: "4 min read",
       date: "April 2026",
-      title: "The Art of High-Stakes Communication: Lessons from Sales Execution & Data Management",
+      icon: "message-square",
+      color: "#5D4637",
+      title: "The Art of High-Stakes Communication: Lessons from Sales Execution &amp; Data Management",
       snippet: "How combining clear data presentation with empathetic client communication turns tough negotiations into winning partnerships.",
       content: `
         <p>Great communication is the single most valuable skill in Qatar's corporate arena. Whether pitching an investor or addressing customer concerns, clarity wins.</p>
+        <h3>Data-Driven Storytelling</h3>
+        <p>Raw numbers rarely persuade. Learn to wrap data in a compelling narrative that speaks to your audience's priorities â€” be they cost savings, growth potential, or risk mitigation.</p>
+        <h3>Empathy in High-Stakes Situations</h3>
+        <p>In Qatar's relationship-driven business culture, emotional intelligence can outperform technical expertise. Building genuine rapport before presenting your case transforms negotiations into conversations.</p>
       `
     },
     {
@@ -78,10 +94,18 @@ const SITE_DATA = {
       categoryLabel: "Hidden Opportunities",
       readTime: "8 min read",
       date: "March 2026",
-      title: "Beyond the Obvious: 5 Emerging Industries & In-Demand Skills in Qatar for 2026",
-      snippet: "Explore booming sectors in Qatar beyond oil & gas — including digital transformation, business services, tourism logistics, and sustainability.",
+      icon: "lightbulb",
+      color: "#C8A26A",
+      title: "Beyond the Obvious: 5 Emerging Industries &amp; In-Demand Skills in Qatar for 2026",
+      snippet: "Explore booming sectors in Qatar beyond oil &amp; gas â€” including digital transformation, business services, tourism logistics, and sustainability.",
       content: `
         <p>While energy remains a pillar, Qatar's diversification efforts have unlocked high-growth sectors requiring specialized talent and entrepreneurial innovation.</p>
+        <h3>1. Digital Transformation &amp; FinTech</h3>
+        <p>Qatar's push towards a digital-first economy has created significant demand for data analysts, cloud architects, and cybersecurity specialists.</p>
+        <h3>2. Luxury Tourism &amp; Hospitality</h3>
+        <p>With world-class hotel brands establishing flagship properties in Doha, opportunities in hospitality management, events, and tourism logistics are flourishing.</p>
+        <h3>3. Sustainability &amp; Green Energy</h3>
+        <p>Qatar National Vision 2030 prioritizes environmental sustainability, creating roles in renewable energy, waste management, and ESG consulting.</p>
       `
     },
     {
@@ -90,10 +114,16 @@ const SITE_DATA = {
       categoryLabel: "Career Growth",
       readTime: "5 min read",
       date: "February 2026",
+      icon: "linkedin",
+      color: "#8B7564",
       title: "LinkedIn Growth Playbook for Expat Professionals in the GCC",
       snippet: "Step-by-step blueprint to optimize your LinkedIn banner, headline, and networking strategy to attract recruiters in Qatar.",
       content: `
         <p>Recruiters in Doha rely heavily on LinkedIn search queries. Optimizing your profile for location-based search algorithms can multiply your interview inquiries overnight.</p>
+        <h3>Crafting a Powerful Headline</h3>
+        <p>Your LinkedIn headline is your first impression. Instead of just listing your job title, include your specialization and the value you deliver â€” "Data Manager | Business Intelligence | Qatar Corporate Markets".</p>
+        <h3>Building a Local Network</h3>
+        <p>Connect strategically with Qatar-based recruiters, industry leaders, and chamber of commerce members. Engage with their content before sending connection requests to warm the relationship.</p>
       `
     }
   ],
@@ -116,7 +146,7 @@ const SITE_DATA = {
     {
       id: "cv-template",
       format: "DOCX / PDF TEMPLATE",
-      title: "Executive CV & Cover Letter Template",
+      title: "Executive CV &amp; Cover Letter Template",
       desc: "ATS-approved, high-impact resume layout used by successful candidates across Qatar's top corporations.",
       badge: "FREE TEMPLATE"
     },
@@ -137,9 +167,10 @@ const SITE_DATA = {
     {
       id: "business-setup-checklist",
       format: "BUSINESS ROADMAP",
-      title: "Qatar Business Setup & Networking Checklist",
+      title: "Qatar Business Setup &amp; Networking Checklist",
       desc: "Step-by-step roadmap for entrepreneurs evaluating company establishment, licensing, and partner selection in Doha.",
       badge: "BUSINESS"
     }
   ]
 };
+

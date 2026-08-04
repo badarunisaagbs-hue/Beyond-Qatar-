@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -102,7 +102,6 @@
          â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
     <section id="hero" class="hero-section">
 
-      <!-- â”€â”€ Slideshow Background â”€â”€ -->
       <div class="hero-slideshow" id="hero-slideshow" aria-hidden="true">
         <!-- Slide 1: Doha Skyline -->
         <div class="hero-slide active" style="background-image:url('./assets/doha_skyline.jpg');" data-caption="West Bay · Doha"></div>
@@ -112,20 +111,26 @@
         <div class="hero-slide" style="background-image:url('./assets/lusail_marina.jpg');" data-caption="Lusail Marina · Qatar"></div>
         <!-- Slide 4: Souq Waqif -->
         <div class="hero-slide" style="background-image:url('./assets/souq_waqif.jpg');" data-caption="Souq Waqif · Doha"></div>
+        <!-- Slide 5: The Pearl-Qatar -->
+        <div class="hero-slide" style="background-image:url('./assets/pearl_qatar.jpg');" data-caption="The Pearl-Qatar · Porto Arabia"></div>
+        <!-- Slide 6: National Museum of Qatar -->
+        <div class="hero-slide" style="background-image:url('./assets/national_museum_qatar.jpg');" data-caption="National Museum of Qatar · Doha"></div>
       </div>
 
-      <!-- â”€â”€ Overlay â”€â”€ -->
+      <!-- Overlay -->
       <div class="hero-overlay"></div>
 
-      <!-- â”€â”€ Slideshow Caption â”€â”€ -->
+      <!-- Slideshow Caption -->
       <div class="hero-slide-caption" id="hero-slide-caption">West Bay · Doha</div>
 
-      <!-- â”€â”€ Slideshow Nav Dots â”€â”€ -->
+      <!-- Slideshow Nav Dots -->
       <div class="hero-dots" id="hero-dots" role="tablist" aria-label="Slideshow navigation">
         <button class="hero-dot active" onclick="app.goToSlide(0)" aria-label="Slide 1" role="tab"></button>
         <button class="hero-dot" onclick="app.goToSlide(1)" aria-label="Slide 2" role="tab"></button>
         <button class="hero-dot" onclick="app.goToSlide(2)" aria-label="Slide 3" role="tab"></button>
         <button class="hero-dot" onclick="app.goToSlide(3)" aria-label="Slide 4" role="tab"></button>
+        <button class="hero-dot" onclick="app.goToSlide(4)" aria-label="Slide 5" role="tab"></button>
+        <button class="hero-dot" onclick="app.goToSlide(5)" aria-label="Slide 6" role="tab"></button>
       </div>
 
       <!-- â”€â”€ Main Content â”€â”€ -->
@@ -234,6 +239,8 @@
                 <div class="hero-thumb" onclick="app.goToSlide(1)" style="background-image:url('./assets/mia_museum.jpg');" aria-label="MIA"></div>
                 <div class="hero-thumb" onclick="app.goToSlide(2)" style="background-image:url('./assets/lusail_marina.jpg');" aria-label="Lusail"></div>
                 <div class="hero-thumb" onclick="app.goToSlide(3)" style="background-image:url('./assets/souq_waqif.jpg');" aria-label="Souq"></div>
+                <div class="hero-thumb" onclick="app.goToSlide(4)" style="background-image:url('./assets/pearl_qatar.jpg');" aria-label="The Pearl"></div>
+                <div class="hero-thumb" onclick="app.goToSlide(5)" style="background-image:url('./assets/national_museum_qatar.jpg');" aria-label="NMQ"></div>
               </div>
             </div>
 
